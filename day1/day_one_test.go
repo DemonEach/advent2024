@@ -33,6 +33,6 @@ func TestPart2(t *testing.T) {
     expectedResult := 31
 
 	if result != expectedResult {
-		t.Errorf("Part1 result: %d, but wanted: %d", result, expectedResult)
+		t.Errorf("Part2 result: %d, but wanted: %d", result, expectedResult)
 	}
 }
