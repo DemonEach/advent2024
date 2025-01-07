@@ -1,4 +1,6 @@
-package ru.demoneach;
+package ru.demoneach.days;
+
+import ru.demoneach.Day;
 
 import java.util.Arrays;
 import java.util.List;
