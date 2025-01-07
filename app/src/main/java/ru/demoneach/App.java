@@ -6,6 +6,7 @@ package ru.demoneach;
 import lombok.extern.slf4j.Slf4j;
 import ru.demoneach.days.Day1;
 import ru.demoneach.days.Day2;
+import ru.demoneach.days.Day3;
 
 @Slf4j
 public class App {
@@ -19,5 +20,10 @@ public class App {
 
         log.info("Day2 Part1: {}", day2.part1(FileUtils.readFileFromResources(Day2.FILE_NAME)));
         log.info("Day2 Part2: {}", day2.part2(FileUtils.readFileFromResources(Day2.FILE_NAME)));
+
+        Day3 day3 = new Day3();
+
+        log.info("Day3 Part1: {}", day3.part1(FileUtils.readFileFromResources(Day3.FILE_NAME)));
+        log.info("Day3 Part2: {}", day3.part2(FileUtils.readFileFromResources(Day3.FILE_NAME)));
     }
 }
