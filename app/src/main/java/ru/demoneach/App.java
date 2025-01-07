@@ -8,6 +8,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class App {
     public static void main(String[] args) {
-        log.info("Test");
+        Day1 day1 = new Day1();
+
+        log.info("Day1 Part1: {}", day1.part1(FileUtils.readFileFromResources(Day1.FILE_NAME)));
+        log.info("Day1 Part2: {}", day1.part2(FileUtils.readFileFromResources(Day1.FILE_NAME)));
     }
 }
